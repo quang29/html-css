@@ -1,0 +1,107 @@
+/* Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+html {
+    background-color:rgb(243, 233, 255) ;
+
+}
+
+.yellow-text {
+    color: #F8E4C1 !important;
+}
+
+#header p {
+    color: rgb(87, 45, 189);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#header img {
+        display: block;
+        margin: auto;
+        width: 20%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+#main {
+        padding-left: 30%;
+        padding-right: 30%;
+    
+}
+
+#main .box {
+    background-color: rgb(119, 74, 216);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    
+}
+
+#main .p {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: sans-serif;
+}
+
+#main p {
+    margin-top: 15px;
+}
+
+.p-title {
+    color: #F5F2FD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p-white-text {
+    color: #FDF0FF;
+    font-size: 13px;
+}
+
+.p-yellow-text {
+    color: #F8E4C1;
+    font-size: 13px;
+    border-left: 3px solid #F0D64D;
+    padding-left: 5px;
+}
+
+.p-bold-text {
+    color: #F5F2FD;
+    font-weight: bold;
+}
+
+.p-markup-text {
+    background-color: #FDECB6;
+    color: #2C0653;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+#footer button {
+    font-size: 15px;
+    background-color: #F9C927;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#footer p {
+    margin-top: 25px;
+    color: #72647E;
+}
